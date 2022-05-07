@@ -1,24 +1,28 @@
 # vue-firebase
 
-## Project setup
-```
-npm install
-```
+## create a vue project
+`vue create vue-firebase`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## build project
+`npm run build`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## install firebase-tools globally
+`npm install firebase-tools -g`
 
-### Lints and fixes files
-```
-npm run lint
-```
+## initialize firebase for the project
+`firebase init`\
+select hosting \
+select an existing or create a project with an unique name (I choose vue-firebase-elic)\
+public directory: dist\
+configure as single-page app: no\
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## deploy the project to firebase
+`firebase deploy`\
+deployed to https://vue-firebase-elic.firebaseapp.com\
+project name is in .firebaserc file
+
+
+
+
+
+
