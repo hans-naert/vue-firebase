@@ -14,11 +14,11 @@
 select hosting \
 select an existing or create a project with an unique name (I choose vue-firebase-elic)\
 public directory: dist\
-configure as single-page app: no\
+configure as single-page app: no
 
 ## deploy the project to firebase
-`firebase deploy`\
-deployed to https://vue-firebase-elic.firebaseapp.com\
+`firebase deploy` \
+deployed to https://vue-firebase-elic.firebaseapp.com \
 project name is in .firebaserc file
 
 
